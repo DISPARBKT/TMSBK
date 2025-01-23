@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>TMSBK - Alpaka</title>
+</head>
+<body>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="index.html" class="nav__logo" data-lang-id="TMSBK" data-lang-en="TMSBK">TMSBK</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link" data-lang-id="Home" data-lang-en="Home">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link" data-lang-id="About" data-lang-en="About">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link" data-lang-id="Contact" data-lang-en="Contact">Contact</a></li>
+
+                    <!-- Language Selector -->
+                    <li class="nav__item">
+                        <select id="language-switch" class="nav__link">
+                            <option value="id" data-lang-id="🇮🇩" selected>🇮🇩</option>
+                            <option value="en" data-lang-en="🇬🇧">🇬🇧</option>
+                        </select>
+                    </li>
+
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title" data-lang-id="Alpaka" data-lang-en="Alpaca">Alpaka</h1>
+                    <a href="#about" class="button" data-lang-id="Lihat Selengkapnya" data-lang-en="View More">Lihat Selengkapnya</a>
+                </div>
+
+                <img src="https://i.pinimg.com/736x/22/3e/df/223edf2daf39210b24f97c2f8257a1cd.jpg" alt="Alpaka" class="home__img">
+            </div>
+        </section>
+        
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial" data-lang-id="Tentang" data-lang-en="About">Tentang</span>
+                    <h2 class="section-title about__initial" data-lang-id="Tentang Alpaka" data-lang-en="About the Alpaca">Tentang <br> Alpaka</h2>
+                    <p class="about__description" data-lang-id="Alpaka adalah mamalia yang berasal dari Pegunungan Andes di Amerika Selatan. Hewan ini dikenal karena wolnya yang sangat halus dan bernilai tinggi. Mereka hidup berkelompok dan sering dijadikan simbol kehangatan serta kedamaian."
+                    data-lang-en="The alpaca is a mammal native to the Andes Mountains of South America. It is renowned for its extremely soft and valuable wool. Alpacas live in groups and are often seen as symbols of warmth and tranquility.">
+                    Alpaka adalah mamalia yang berasal dari Pegunungan Andes di Amerika Selatan. Hewan ini dikenal karena wolnya yang sangat halus dan bernilai tinggi. Mereka hidup berkelompok dan sering dijadikan simbol kehangatan serta kedamaian.
+                    </p>
+                </div>
+
+                <img src="https://www.lamamita.co.uk/storage/elemento/19843/baby-alpaca-sulle-ande.jpg" alt="Alpaka Habitat" class="about__img">
+            </div>
+        </section>
+
+        <section class="section bd-container">
+            <div class="info-container">
+                <ul>
+                    <li>
+                        <strong data-lang-id="Asal Habitat" data-lang-en="Native Habitat">Asal Habitat:</strong> 
+                        <span data-lang-id="Pegunungan Andes, Amerika Selatan" data-lang-en="Andes Mountains, South America">Pegunungan Andes, Amerika Selatan</span>
+                    </li>
+                    <li>
+                        <strong data-lang-id="Pakan" data-lang-en="Diet">Pakan:</strong> 
+                        <span data-lang-id="Rumput dan hay (hijauan kering)" data-lang-en="Grass and hay">Rumput dan hay (hijauan kering)</span>
+                    </li>
+                    <li>
+                        <strong data-lang-id="Karakter" data-lang-en="Characteristics">Karakter:</strong> 
+                        <span data-lang-id="Penghasil wol halus, hidup berkelompok" data-lang-en="Produces fine wool, lives in groups">Penghasil wol halus, hidup berkelompok</span>
+                    </li>
+                    <li>
+                        <strong data-lang-id="Status" data-lang-en="Status">Status:</strong> 
+                        <span data-lang-id="Tidak dilindungi" data-lang-en="Not protected">Tidak dilindungi</span>
+                    </li>
+                </ul>
+        
+                <p data-lang-id="Kutipan" data-lang-en="Quote">Kutipan:</p>
+                
+                <p data-lang-id="Alpaka membawa kehangatan tidak hanya lewat bulunya, tetapi juga kepribadiannya."
+                    data-lang-en="The Alpaca brings warmth, not just through its fleece but its personality.">
+                    Alpaka membawa kehangatan tidak hanya lewat bulunya, tetapi juga kepribadiannya.
+                </p>
+            </div>
+        </section>
+        
+
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial" data-lang-id="Kontak" data-lang-en="Contact">Kontak</span>
+                    <h2 class="section-title contact__initial" data-lang-id="Butuh Bantuan?" data-lang-en="Need Help?">Butuh Bantuan? Kami Siap Membantu Anda!</h2>
+                    <p class="contact__description" data-lang-id="Jika Anda membutuhkan bantuan dari staf kami, jangan ragu untuk menghubungi kami. Kami berkomitmen untuk memastikan keamanan Anda dan memberikan dukungan dengan cepat." 
+                    data-lang-en="If you’re facing an emergency or require assistance from our staff, don’t hesitate to contact us. We are committed to ensuring your safety and providing prompt support.">
+                    Jika Anda membutuhkan bantuan dari staf kami, jangan ragu untuk menghubungi kami. Kami berkomitmen untuk memastikan keamanan Anda dan memberikan dukungan dengan cepat.
+                    </p>
+                </div>
+
+                <div class="contact__button">
+                    <a href="tel:121231" class="button" data-lang-id="Petugas Kebun Binatang" data-lang-en="Zoo Hotline">Petugas Kebun Binatang</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <p class="footer__copy" id="footer-copy"></p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
